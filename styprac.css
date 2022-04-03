@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Smooch+Sans:wght@700&display=swap');
+main,html,ul{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Smooch Sans', sans-serif;
+		    letter-spacing: 1.8px;
+		}
+body{
+	background-image: url(https://images8.alphacoders.com/105/1052326.jpg);
+	background-attachment: scroll;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+		html{
+			height: 100vh;
+		}
+ header a.a{
+    margin-left:20px;
+	font-size:20px;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    left: 4.8%;
+    padding: 4px;
+    font-family: Alegreya Sans;
+
+}
+header a.b{
+ 	margin-left:19px;
+	font-size:20px;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    left: 4.8%;
+    color: white;
+    padding: 4px;
+    font-family: Alegreya Sans;
+}
+header a.b:hover,header a.a{
+	border-radius: 25px;
+	padding:6px 8px 6px 8px;
+	background: white;
+	color: #2b1055;
+}
+header a.butn{
+    text-decoration: none;
+	font-size:60px;
+	font-style: italic;
+	letter-spacing: 4.5px;
+	text-align: right;
+	position: relative;
+	text-shadow: 3px 4px 3px grey;
+	left: 670px;
+	top: 40px;
+    color: white;
+    padding: 4px;
+}
+header a.butn:hover{
+	background-image: url(https://i.ytimg.com/an_webp/Ij1778c7hUc/mqdefault_6s.webp?du=3000&sqp=CPmulpEG&rs=AOn4CLDavk1LDxkXZX0ocWxJNaud9NLG3A);
+}
+		html,body{
+			height: 100%;
+		}
+main{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 149px;
+	left: 50px;
+}
+ul{
+	list-style: none;
+}
+.drop{
+	display: block;
+}
+.btn{
+	border: none;
+	cursor: pointer;
+	padding: 15px;
+	background-color:#2b1055;
+	color: white;
+	border-radius: 5px 20px;
+	font-size:20px;
+	font-family: 'Hubballi', cursive;
+	letter-spacing: 4.5px;
+}
+.content{
+	display: none;
+}
+.drop:hover >.content{
+  display: block;
+}
+.drop:hover .btn{
+	background-color: white;
+	color: #2b1055;
+}
+.content>li, .content>a{
+	display: inline-block;
+}
+.content li{
+	margin: 10px 0px 0px 10px;
+	position: relative;
+}
+.content li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 10px;
+	font-size: 1.2rem;
+	display: block;
+}
+.content li a:hover{
+	background-color: white;
+	color: #2b1055;
+	border-radius: 20px;
+}
+.dualI{
+	position: absolute;
+	min-width: 130px;
+	left:0;
+	display: none;
+}
+.image{
+	position: absolute;
+	left:100%;
+	top: -10px;
+	display: none;
+}
+.image img{
+	position: relative;
+	height: 150px;
+	width: 150px;
+	
+}
+.content li:hover>.dualI{
+	display:block;
+}
+.dualI li:hover>.image{
+	display:block;
+}
+.image li a img:hover{
+	border-radius: 0px;
+	height: 350px;
+	width: 350px;
+}
