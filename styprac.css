@@ -144,4 +144,5 @@ ul{
 	border-radius: 0px;
 	height: 350px;
 	width: 350px;
+	transition: 0.4s all ease-out;
 }
